@@ -19,4 +19,9 @@
       <Filter>Source Files</Filter>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\..\..\..\Oracle\ora11gr2\precomp\LIB\msvc\orasqx11.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+  </ItemGroup>
 </Project>

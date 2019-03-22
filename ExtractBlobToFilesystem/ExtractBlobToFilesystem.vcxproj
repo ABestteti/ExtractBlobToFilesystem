@@ -147,6 +147,9 @@
   <ItemGroup>
     <None Include="main.pc" />
   </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\..\..\..\Oracle\ora11gr2\precomp\LIB\msvc\orasqx11.lib" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
