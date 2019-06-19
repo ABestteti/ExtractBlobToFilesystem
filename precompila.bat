@@ -35,7 +35,7 @@ Rem set ICHOME=..\..
 set ICHOME=C:\Oracle\ora11gr2
 
 set ORACLE_HOME=C:\Oracle\ora11gr2
-set PATH=%ORACLE_HOME%\sdk;%PATH%
+set PATH=%ORACLE_HOME%\bin;%PATH%
 
 Rem Environment Check:
 if ("%VCINSTALLDIR%") == ("") goto vcinstalldir_error

@@ -18,9 +18,17 @@
     <None Include="main.pc">
       <Filter>Source Files</Filter>
     </None>
+    <None Include="reference.pc">
+      <Filter>Source Files</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
-    <Library Include="..\..\..\..\..\Oracle\ora11gr2\precomp\LIB\msvc\orasqx11.lib">
+    <ClCompile Include="reference.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\..\..\..\Oracle\ora11gr2\precomp\LIB\orasql11.lib">
       <Filter>Resource Files</Filter>
     </Library>
   </ItemGroup>
