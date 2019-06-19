@@ -71,9 +71,9 @@ void proc_cria_log(string mensagem_execucao, unsigned short ponto_execucao)
     char aux[16];
 
     // Variáveis para obter a mensagem de erro do banco:
-    int tamanho_buffer = TAMANHO_BUFFER_MENSAGEM;
+    size_t tamanho_buffer = TAMANHO_BUFFER_MENSAGEM;
     char buffer_mensagem_banco[TAMANHO_BUFFER_MENSAGEM];
-    int tamanho_mensagem_banco;
+    size_t tamanho_mensagem_banco;
 
 
     time(&rawtime);
